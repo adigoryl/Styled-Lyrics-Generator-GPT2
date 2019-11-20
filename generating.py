@@ -112,7 +112,6 @@ def generate_lyrics(model, enc, args, context, end_token, device):
 
     with torch.no_grad():
         past = None
-        batch_idxs_to_skip = set()
         keep_gen_4_these_batches = np.arange(0, args.gen_batch).tolist()
         for _ in trange(len(context), max_len):
             logits, past = model(input_ids=input_ids,
@@ -124,7 +123,6 @@ def generate_lyrics(model, enc, args, context, end_token, device):
             filtered_logits = U.top_k_top_p_filtering(next_token_logits, top_k=0, top_p=0.95)
             log_probs = F.softmax(filtered_logits, dim=-1)
             next_token_id = torch.multinomial(log_probs, num_samples=1)
-            # output = torch.cat((output, next_token_id), dim=1)
 
             # Since we are using past, the model only requires the generated token as the next input
             input_ids = next_token_id
@@ -165,15 +163,8 @@ def main():
     # @                    GENERATE FROM FINE-TUNED GPT2
     # @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-    # genre = "Pop"
-    # genre = "Rock"
-    genre = "Rap"
-    # genre = "Reggae"
+    genre = "Pop"
     artist = "Justin Bieber"
-    # artist = "Queen"
-    # artist = "Eminem"
-    # artist = "Bob Marley"
-    artist = "Joyner Lucas"
     year = "2015"
     album = "Purpose"
     song_name = "Love Yourself"
@@ -184,8 +175,6 @@ def main():
               "[s:album]" + album + "[e:album]" + \
               "[s:song_name]" + song_name + "[e:song_name]" + \
               "[s:lyrics]"
-
-    lyrics = "My mama don't like you and she likes everyone\nAnd I never like to admit that I was wrong\nAnd I've been so caught up in my job, didn't see what's going on\nBut now I know, I'm better sleeping on my own"
 
     context = "[s:genre]" + genre + "[e:genre]" + \
               "[s:artist]" + artist + "[e:artist]" + \
