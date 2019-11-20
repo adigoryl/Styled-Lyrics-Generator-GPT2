@@ -126,3 +126,6 @@ dmypy.json
 
 # Filer I want to ignore:
 tuned_models/
+.gitignore
+.DS_Store
+.idea

@@ -55,14 +55,14 @@
           <entry key="Python Console" value="17818" />
           <entry key="dummy" value="71" />
           <entry key="gitignore" value="41" />
-          <entry key="py" value="23184" />
+          <entry key="py" value="23187" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="41" />
           <entry key="PLAIN_TEXT" value="75" />
-          <entry key="Python" value="40998" />
+          <entry key="Python" value="41001" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -101,25 +101,16 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/generating.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="61">
-                  <caret line="182" column="63" lean-forward="true" selection-start-line="182" selection-start-column="63" selection-end-line="182" selection-end-column="63" />
+                <state relative-caret-position="263">
+                  <caret line="176" column="26" lean-forward="true" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
                   <folding>
                     <element signature="e#0#14#0" expanded="true" />
                     <element signature="e#859#1103#1" />
                     <element signature="e#2950#3813#1" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="41">
-                  <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
                 </state>
               </provider>
             </entry>
@@ -223,8 +214,8 @@
         <option value="$PROJECT_DIR$/genius_scraping_api.py" />
         <option value="$PROJECT_DIR$/utils/utilities.py" />
         <option value="$PROJECT_DIR$/training.py" />
-        <option value="$PROJECT_DIR$/generating.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/generating.py" />
       </list>
     </option>
   </component>
@@ -409,9 +400,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="805" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19170243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19170243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -419,13 +409,13 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893504" weight="0.27068722" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.52380955" visible="true" weight="0.43057504" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.52380955" weight="0.43057504" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32819074" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.44319776" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" weight="0.32678822" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" visible="true" weight="0.32678822" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32792583" />
       <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.5114449" weight="0.36746144" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -456,19 +446,9 @@
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/generating.py</url>
-          <line>199</line>
-          <option name="timeStamp" value="100" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/training.py</url>
           <line>135</line>
           <option name="timeStamp" value="101" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/generating.py</url>
-          <line>197</line>
-          <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/generating.py</url>
@@ -675,22 +655,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/generating.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="182" column="63" lean-forward="true" selection-start-line="182" selection-start-column="63" selection-end-line="182" selection-end-column="63" />
+        <state relative-caret-position="263">
+          <caret line="176" column="26" lean-forward="true" selection-start-line="176" selection-start-column="26" selection-end-line="176" selection-end-column="26" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#859#1103#1" />
             <element signature="e#2950#3813#1" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
         </state>
       </provider>
     </entry>
